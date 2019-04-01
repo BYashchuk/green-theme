@@ -1,0 +1,688 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(../font/HelveticaLight.ttf);
+}
+
+@font-face {
+    font-family: SFProDisplay;
+    src: url(../font/SF-Font.dmg);
+}
+
+.pos-relav {
+    position: relative;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    color: white;
+    background: black;
+}
+
+#about {
+    background: url(../img/bg/aboutUsBG.png) center no-repeat #000;
+    background-size: cover
+}
+
+#blog {
+    background: url(../img/bg/blogBg.png) center no-repeat #000;
+    background-size: cover
+}
+
+#contact {
+    background: url(../img/bg/contactsBG.png) center no-repeat #000;
+    background-size: cover
+}
+
+#index {
+    background: url(../img/bg/generalBG.png) center no-repeat #000;
+    background-size: cover
+}
+
+#resource {
+    background: url(../img/bg/resourceBG.png) center no-repeat #000;
+    background-size: cover
+}
+
+#service {
+    background: url(../img/bg/servicesBG.png) center no-repeat #000;
+    background-size: cover;
+    position: relative
+}
+
+#team {
+    background: url(../img/bg/teamBg.png) center no-repeat #000;
+    background-size: cover
+}
+
+/*index*/
+
+.ctnter-title {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    margin-top: 38vh;
+}
+
+.block-btn {
+    display: flex;
+    text-align: center;
+    margin-top: 10vh;
+    justify-content: center;
+}
+
+.m-r-b {
+    margin-right: 20px;
+}
+
+.btn-style {
+    border: 1px solid rgb(25, 128, 53);
+    border-radius: 4px;
+    background-color: rgb(0, 0, 0);
+    line-height: 2.8;
+    width: 199px;
+    height: 43px;
+    box-shadow: 0 5px 30px 4px rgb(25, 128, 53);
+    font-size: 16px;
+    font-family: "SFProDisplay", sans-serif;
+    color: rgb(44, 147, 56);
+}
+
+.gener-title {
+    font-size: 48px;
+    color: rgba(255, 255, 255, 0.871);
+    line-height: 1.292;
+    text-align: center;
+}
+
+/*  =/index*/
+
+/*resource{}*/
+
+.centers-block {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    margin-top: 15vh;
+}
+
+.tit {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "SFProDisplay", sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.lin-tit {
+    width: 400px;
+    height: 2px;
+    background: #2b9336;
+    box-shadow: 0 0 41px 5px #2b9336;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.all-text-resorse {
+    font-size: 14px;
+    font-family: "SFProDisplay", sans-serif;
+    color: rgba(255, 255, 255, 0.671);
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-resorce {
+    display: flex;
+    justify-content: center;
+    line-height: 2.8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 30px 4px rgb(25, 128, 53);
+    border-width: 1px;
+    border-color: rgb(25, 128, 53);
+    border-style: solid;
+    border-radius: 4px;
+    background-color: rgb(0, 0, 0);
+    width: 282px;
+    height: 43px;
+    font-size: 16px;
+    font-family: "SFProDisplay", sans-serif;
+    color: rgb(44, 147, 56);
+    text-align: left;
+}
+
+/*    =/resource{}*/
+
+/*ebaut us*/
+
+.vector-object img {
+    width: 315px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#about .nav-tabs {
+    border: none !important;
+}
+
+#about .nav-tabs>li {
+    float: none !important;
+}
+
+#about .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: white !important;
+    cursor: default;
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom-color: transparent;
+}
+
+#about .nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#about .nav-tabs>li>a:hover {
+    border-color: transparent;
+}
+
+a:focus, a:hover, a {
+    color: white;
+    text-decoration: none;
+}
+
+#about .line-green {
+    background: #3ca836;
+    width: 110px;
+    height: 2px;
+    margin-top: 9px;
+    margin-right: 7px;
+    transition: .4s;
+}
+
+#about .for-green li a {
+    display: flex;
+    font-size: 16px;
+}
+
+#about .for-green li.active a {
+    text-shadow: 1px 1px 2px black, 0 0 1em #3ca836;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.35;
+    text-align: left;
+}
+
+#about .for-green li.active a .line-green {
+    width: 180px;
+    margin-right: 10px;
+    margin-top: 25px;
+    transition: .4s;
+}
+
+#about .first-miror {
+    position: relative;
+    top: 0;
+    width: 300px;
+    left: 105px;
+    font-weight: bold;
+    z-index: 1;
+    margin-bottom: 35px;
+    font-size: 27.514px;
+    font-family: "SFProDisplay", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.509;
+}
+
+#about .second-miror {
+    position: absolute;
+    left: -45px;
+    top: -15px;
+    z-index: -1;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "SFProDisplay", sans-serif;
+    color: rgba(255, 255, 255, 0.102);
+    line-height: 1.35;
+}
+
+.contetn-in-tab {
+    position: relative;
+    font-size: 16px;
+    font-family: "SFProDisplay", sans-serif;
+    color: rgba(255, 255, 255, 0.4);
+    line-height: 1.5;
+    text-align: center;
+}
+
+.contetn-in-tab::before {
+    border: 2px solid #3ca836;
+    border-bottom: none;
+    border-right: none;
+    box-sizing: border-box;
+    content: '';
+    height: 50px;
+    left: -20px;
+    position: absolute;
+    top: -10px;
+    width: 50px;
+}
+
+.contetn-in-tab::after {
+    border: 2px solid #3ca836;
+    border-top: none;
+    border-left: none;
+    box-sizing: border-box;
+    content: '';
+    height: 50px;
+    right: -20px;
+    position: absolute;
+    bottom: -10px;
+    width: 50px;
+}
+
+/*         =/ebaut us*/
+
+/*service*/
+
+.trimida {
+    width: 607px;
+    margin-left: -121px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 59%;
+    margin-top: 6%;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translate(-100%, 0);
+    }
+    100% {
+        transform: translate(0, 0)
+    }
+}
+
+.marquee {
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border-left: 4px solid green;
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 10%;
+    font-size: 25px;
+    font-weight: bold;
+    animation: scroll 1.5s;
+    margin-top: 13px;
+}
+
+.marquee span span {
+    font-size: 16px;
+    font-family: "SFProDisplay", sans-serif;
+    color: rgba(255, 255, 255, 0.671);
+    line-height: 1.5;
+    padding-left: 0;
+}
+
+.btn-more-serv {
+    border-width: 1px;
+    border-color: rgb(25, 128, 53);
+    border-style: solid;
+    border-radius: 4px;
+    background-color: rgb(0, 0, 0);
+    width: 159px;
+    height: 33px;
+    box-shadow: 0 0 20px 0 #2b9336;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-family: "SFProDisplay", sans-serif;
+    color: rgb(44, 147, 56);
+    line-height: 2;
+    float: right;
+    margin: 10px;
+}
+
+#service .carousel-indicators .active {
+    background-color: #2b9336 !important;
+}
+
+#service .carousel-indicators li {
+    border: 1px solid #2b9336 !important;
+}
+
+.mt-carus {
+    margin-top: 15vh;
+}
+
+/*    =/service*/
+
+/*contact*/
+
+.mt-t-cont {
+    margin-top: 15vh;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-logo {
+    width: 100px;
+    height: 81px;
+    margin-top: 20px;
+}
+
+.descript-contact {
+    font-size: 15px;
+    font-family: "SFProDisplay", sans-serif;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: italic;
+    line-height: 1.625;
+    text-align: right;
+    padding-left: 20px;
+    margin: 17px;
+    padding-bottom: 7px;
+    border-left: 3px solid green;
+}
+
+.map-block {
+    position: relative;
+}
+
+.map {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+}
+
+#maps-true {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+}
+
+.adress {
+    list-style: none;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.adress i {
+    color: #4d4d4d;
+    margin-right: 10px;
+}
+
+.adress li {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+    line-height: 1.875;
+    margin-bottom: 10px;
+}
+
+.f-titl {
+    font-size: 36px;
+    color: rgba(255, 255, 255, 0.871);
+    line-height: 1.389;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 47px;
+}
+
+.iname, .iphone, .iemail, .imessage {
+    border-width: 1px;
+    border-color: rgb(25, 128, 53);
+    border-style: solid;
+    border-radius: 4px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding-left: 5px;
+    box-shadow: 0 0 20px 0 #2b9336;
+}
+
+.iname, .iphone {
+    width: 44%;
+    height: 50px;
+}
+
+.iname {
+    float: left;
+}
+
+.iphone {
+    float: right;
+}
+
+.iemail {
+    height: 50px;
+}
+
+.iemail, .imessage {
+    width: 100%;
+}
+
+.imessage {
+    max-height: 150px;
+    height: 100%;
+}
+
+.isubmit i {
+    color: rgb(55, 202, 46);
+    margin-left: 10px;
+}
+
+.isubmit {
+    border-width: 1px;
+    border-color: rgb(25, 128, 53);
+    border-style: solid;
+    border-radius: 4px;
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    width: 159px;
+    height: 51px;
+    box-shadow: 0 0 20px 0 #2b9336;
+    line-height: 3;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: rgb(55, 202, 46);
+}
+
+/*foote*/
+
+.lists {
+    display: flex;
+    justify-content: center;
+}
+
+.lists ul {
+    list-style: none;
+    display: flex;
+}
+
+.lists ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.lists ul li i {
+    color: #4d4d4d;
+}
+
+.l-foot {
+    font-size: 12px;
+    color: rgba(54, 247, 42, 0.2);
+    line-height: 1.167;
+    text-align: left;
+}
+
+.r-foot {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.2);
+    line-height: 1.668;
+    text-align: right;
+    ;
+}
+
+/*        =/contact*/
+
+/*blog*/
+
+.list-z {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.list-z li {
+    padding-right: 20px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+hr {
+    color: #4d4d4d;
+    background: #4d4d4d;
+}
+
+#blog .carousel-indicators .active {
+    width: 14px !important;
+    height: 14px !important;
+    margin: 0;
+    background-color: #2b9336 !important;
+}
+
+#blog .carousel-indicators li {
+    display: inline-block;
+    width: 8px !important;
+    height: 8px !important;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #2b9336 !important;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #2b9336;
+    border-radius: 10px;
+}
+
+.forma-fblock {
+    padding: 20px;
+    background: white;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+#blog .carousel-indicators {
+    margin-bottom: -22px !important;
+}
+
+.data-creat {
+    font-size: 10px;
+    font-family: "SFProDisplay", sans-serif;
+    color: rgba(0, 0, 0, 0.502);
+    font-weight: bold;
+    line-height: 2.4;
+    text-align: left;
+}
+
+.bold-text-descriptor {
+    font-size: 20px;
+    font-family: "SFProDisplay", sans-serif;
+    color: rgba(0, 0, 0, 0.902);
+    line-height: 1.6;
+    text-align: left;
+    font-weight: bold;
+}
+
+.flex-line-div {
+    display: flex;
+}
+
+.like {
+    margin-right: 15px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.502);
+    line-height: 1.846;
+}
+
+.share {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.502);
+    line-height: 1.846;
+}
+
+.name-news {
+    font-size: 26px;
+    font-family: "SFProDisplay", sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.462;
+    text-align: left;
+}
+
+.descriptions-news {
+    font-size: 16px;
+    font-family: "SFProDisplay", sans-serif;
+    color: rgba(1, 1, 1, 0.8);
+    line-height: 1.5;
+    text-align: left;
+}
+
+.active-news {
+    background: white;
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.abs-blo img {
+    width: 100%;
+    height: 320px;
+}
+
+.arro {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 110px;
+    height: 50px;
+    background: white;
+}
+
+.arro i {
+    position: absolute;
+    left: 45px;
+    bottom: 7px;
+}
+
+/*     =/blog*/
+
+.tab-content {
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.anim-trid {
+    width: 100%;
+    min-height: 350px;
+    position: relative;
+}

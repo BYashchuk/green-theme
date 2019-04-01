@@ -1,0 +1,88 @@
+*,
+:before,
+:after {
+  box-sizing: border-box; }
+
+.honeycomb {
+  width: 125px;
+  height: 200px;
+  position: absolute;
+  top: -31px;
+  right: 100px;
+  overflow: hidden; }
+
+.honeycomb__inner {
+  top: 0;
+  left: 0;
+  width: 83px;
+  height: 120px; }
+
+.honeycomb__item {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 83px;
+  height: 120px;
+  background: url("../img/trib.svg") no-repeat;
+  transform: translateX(-8px) translateY(98px) scale(0.7);
+  opacity: 0.2;
+  transition: all 400ms; }
+  .honeycomb__item:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: all 400ms; }
+  .honeycomb__item:nth-child(1) {
+    z-index: 1; }
+
+.honeycomb__item--active {
+  opacity: 1;
+  transition: all 400ms; }
+  .honeycomb__item--active .fa {
+    position: absolute;
+    top: -31px;
+    right: 100px;
+    font-size: 3.4em;
+    color: #fff; }
+  .honeycomb__item--active:nth-child(1) {
+    transform: translateX(2px) translateY(78px) scale(0.8);
+    background-color: transparent;
+    transition: all 200ms; }
+    .honeycomb__item--active:nth-child(1) .fa {
+      color: tint(transparent, 90%);
+      transition: all 200ms; }
+    .honeycomb__item--active:nth-child(1):hover {
+      background-color: shade(transparent, 20%); }
+      .honeycomb__item--active:nth-child(1):hover .fa {
+        color: tint(transparent, 100%);
+        transition: all 200ms; }
+    .honeycomb__item--active:nth-child(1) .fa {
+      color: rgba(0, 0, 0, 0); }
+    .honeycomb__item--active:nth-child(1):hover {
+      background-color: rgba(0, 0, 0, 0); }
+      .honeycomb__item--active:nth-child(1):hover .fa {
+        color: rgba(0, 0, 0, 0); }
+  .honeycomb__item--active:nth-child(2) {
+    transform: translateX(12px) translateY(67px) scale(0.8);
+    background-color: transparent; }
+    .honeycomb__item--active:nth-child(2) .fa {
+      color: tint(transparent, 90%);
+      transition: all 200ms; }
+    .honeycomb__item--active:nth-child(2):hover {
+      background-color: shade(transparent, 20%); }
+      .honeycomb__item--active:nth-child(2):hover .fa {
+        color: tint(transparent, 100%);
+        transition: all 200ms; }
+  .honeycomb__item--active:nth-child(3) {
+    transform: translateX(23px) translateY(56px) scale(0.8);
+    background-color: transparent; }
+    .honeycomb__item--active:nth-child(3) .fa {
+      color: tint(transparent, 90%);
+      transition: all 200ms; }
+    .honeycomb__item--active:nth-child(3):hover {
+      background-color: shade(transparent, 20%); }
+      .honeycomb__item--active:nth-child(3):hover .fa {
+        color: tint(transparent, 100%);
+        transition: all 200ms; }
+
+/*# sourceMappingURL=anim.css.map */

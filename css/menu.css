@@ -1,0 +1,47 @@
+.navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.logo {
+    width: 140px;
+    margin-top: 10px;
+}
+
+.m-l {
+    margin-left: 14%;
+}
+
+.m-r {
+    margin-right: 14%;
+}
+
+.activer {
+    border-bottom: 2px solid #279035;
+}
+
+.js-active li a {
+    color: white !important;
+}
+
+@media (max-width: 767px) {
+    .m-l {
+        margin-left: 0;
+    }
+    .m-r {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+.good-width {
+    width: 100%;
+    background: black;
+    z-index: 12;
+}

@@ -1,0 +1,145 @@
+@media (max-width: 470px) {
+    /*index*/
+    .gener-title {
+        font-size: 30px;
+    }
+    .block-btn {
+        display: block;
+    }
+    .btn-style {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 1199px) {
+    /*services*/
+    .marquee span span {
+        font-size: 13px;
+    }
+    .marquee span {
+        font-size: 19px;
+    }
+    .btn-more-serv {
+        width: 114px;
+        font-size: 12px;
+    }
+    #service .carousel-indicators {
+        margin-bottom: -53px;
+    }
+}
+
+@media (max-width: 767px) {
+    .list-z {
+        display: grid;
+    }
+    .r-foot {
+        text-align: left;
+    }
+    .trimida {
+        display: none;
+    }
+    .map {
+        height: 350px;
+    }
+    .descript-contact {
+        font-size: 11px;
+    }
+    .f-titl {
+        font-size: 25px;
+    }
+    input[type="checkbox"]+label {
+        font-size: 9px;
+    }
+    .isubmit {
+        margin-bottom: 20px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .adress li {
+        font-size: 12px;
+    }
+    .tit {
+        font-size: 18px;
+    }
+    .navbar-brand {
+        transform: none;
+        left: 0;
+        position: relative;
+    }
+    .logo {
+        width: 51px;
+        margin-top: -8px;
+    }
+    .lin-tit {
+        width: 270px !important;
+    }
+    .vector-object {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    #about .first-miror {
+        font-size: 25px;
+        left: 23px;
+    }
+    #about .second-miror {
+        font-size: 34px;
+        left: -28px;
+    }
+    #about .for-green li.active a {
+        font-size: 23px;
+    }
+    #about .for-green li a {
+        font-size: 14px;
+    }
+    #about .line-green {
+        width: 50px;
+    }
+    #about .for-green li.active a .line-green {
+        width: 89px;
+        margin-top: 13px;
+    }
+    .lin-tit {
+        width: 270px;
+    }
+    .mane-descrips-info {
+        margin-left: 0 !important;
+    }
+}
+
+@media (max-width: 1420px) {
+    .honeycomb, .honeycombBR {
+        right: 85px;
+    }
+    .honeycombTL, .honeycombBL {
+        left: 85px;
+    }
+}
+
+@media (max-width: 1328px) {
+    .honeycomb, .honeycombBR {
+        right: 68px;
+    }
+    .honeycombTL, .honeycombBL {
+        left: 68px;
+    }
+}
+
+@media (max-width: 1225px) {
+    .honeycomb, .honeycombBR {
+        right: 50px;
+    }
+    .honeycombTL, .honeycombBL {
+        left: 50px;
+    }
+}
+
+@media (max-width: 1119px) {
+    .honeycomb, .honeycombBR {
+        right: 29px;
+    }
+    .honeycombTL, .honeycombBL {
+        left: 29px;
+    }
+}
